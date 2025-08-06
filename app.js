@@ -1,63 +1,63 @@
 // FAMILIAR OPERATOR
 
-var a = 10;
-var b = 20;
+// var a = 10;
+// var b = 20;
 
-var sum = a + b; //30
-var subtraction = a - b;    //-10
-var multiplication = a * b; //200
-var division = b / a; //2
-var remainder = b % a; //0
-var exponentation = a ** b;  //10000000000000000000000
-
-
-
-console.log(sum);
-console.log(subtraction);
-console.log(multiplication);
-console.log(division);
-console.log(remainder);
-console.log(exponentation);
+// var sum = a + b; //30
+// var subtraction = a - b;    //-10
+// var multiplication = a * b; //200
+// var division = b / a; //2
+// var remainder = b % a; //0
+// var exponentation = a ** b;  //10000000000000000000000
 
 
-var x = sum / division + multiplication;
-console.log("Output of the value of x = " + x);
 
-var y = sum / (division + 10);
-console.log("The output of y is = " + y)
+// console.log(sum);
+// console.log(subtraction);
+// console.log(multiplication);
+// console.log(division);
+// console.log(remainder);
+// console.log(exponentation);
+
+
+// var x = sum / division + multiplication;
+// console.log("Output of the value of x = " + x);
+
+// var y = sum / (division + 10);
+// console.log("The output of y is = " + y)
 
 
 
 
 //POST INCREMENT
-var pnum = 10;
-var pnumAfter = pnum++;
-console.log("The value after incrementing pnum is = " + pnumAfter);
-console.log("The value pnum is = " + pnum);
+// var pnum = 10;
+// var pnumAfter = pnum++;
+// console.log("The value after incrementing pnum is = " + pnumAfter);
+// console.log("The value pnum is = " + pnum);
 
 //POST DECREMENT
-var dnum = 20;
-var dnumAfter = dnum--;
-console.log("The value of dnum is = " + dnum);
-console.log("The value after decrementing dnum is = " + dnumAfter);
-console.log("The value of dnum is = " + dnum);
+// var dnum = 20;
+// var dnumAfter = dnum--;
+// console.log("The value of dnum is = " + dnum);
+// console.log("The value after decrementing dnum is = " + dnumAfter);
+// console.log("The value of dnum is = " + dnum);
 
 //PRE INCREMENT
-var prenum = 30;
-var prenumAfter = ++prenum;
-console.log("The value after pre-incrementing is " + prenumAfter);
-console.log("The value of prenum is " + prenum);
+// var prenum = 30;
+// var prenumAfter = ++prenum;
+// console.log("The value after pre-incrementing is " + prenumAfter);
+// console.log("The value of prenum is " + prenum);
 
 //PRE DECREMENT
-var prednum = 40;
-var prednumAfter = --prednum;
-console.log("The value before decrementing predum is " + prednumAfter);
-console.log("The value of prednum is " + prednum);
+// var prednum = 40;
+// var prednumAfter = --prednum;
+// console.log("The value before decrementing predum is " + prednumAfter);
+// console.log("The value of prednum is " + prednum);
 
 //LOOP
-for (var i = 0; i <= 7; i++) {
-    console.log("Round of i is = " + i);
-}
+// for (var i = 0; i <= 7; i++) {
+//     console.log("Round of i is = " + i);
+// }
 
 
 //WITH PROMPT 
@@ -75,14 +75,14 @@ for (var i = 0; i <= 7; i++) {
 //3 TYPES OF FUNCTIONS
 
 //1. FUNCTION WITH FUNCTION KEYWORD
-function hello() {
-    console.log("hello");
-}
+// function hello() {
+//     console.log("hello");
+// }
 
 //2. ANONYMOUS FUCTION -> FUNCTION WITHOUT NAME
-var sayHello = function () {
-    console.log("Hello to everyone")
-}
+// var sayHello = function () {
+//     console.log("Hello to everyone")
+// }
 
 // setInterval(function() {
 
@@ -91,148 +91,148 @@ var sayHello = function () {
 //Parameter : Function banate waqt value dene ko parameter khete hain
 //Argument : Function call kerwate hui value ko argument khete hain
 
-let greeting = () => {
-    console.log('Greeting');
-}
-greeting();
+// let greeting = () => {
+//     console.log('Greeting');
+// }
+// greeting();
 
-function add(a, b) {
-    var total = a + b
-    return total;
-}
-console.log(add(10, 20));
+// function add(a, b) {
+//     var total = a + b
+//     return total;
+// }
+// console.log(add(10, 20));
 
-//ARRAY METHODS
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(array.slice(0, 2));
+// //ARRAY METHODS
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(array.slice(0, 2));
 
 
-function isEven(num) {
-    if (num % 2 == 0) {
-        return true;
-    }
-    else {
-        return false
-    }
-}
+// function isEven(num) {
+//     if (num % 2 == 0) {
+//         return true;
+//     }
+//     else {
+//         return false
+//     }
+// }
 
-console.log(isEven(13));
+// console.log(isEven(13));
 
-var input = document.getElementById("num")
-var answer = document.getElementById("answer")
+// var input = document.getElementById("num")
+// var answer = document.getElementById("answer")
 
-function checkIsEven() {
-    var num = input.value
-    console.log(num);
+// function checkIsEven() {
+//     var num = input.value
+//     console.log(num);
 
-    if (isEven(num)) {
-        answer.innerHTML = "The number is Even"
-    }
-    else {
-        answer.innerHTML = "The number is Odd"
-    }
-}
+//     if (isEven(num)) {
+//         answer.innerHTML = "The number is Even"
+//     }
+//     else {
+//         answer.innerHTML = "The number is Odd"
+//     }
+// }
 
 //CALCULATOR
-var num1 = document.getElementById("num1");
-var num2 = document.getElementById("num2");
+// var num1 = document.getElementById("num1");
+// var num2 = document.getElementById("num2");
 
 
-function calculate(sign = '+') {
+// function calculate(sign = '+') {
 
 
-    var num1Value = num1.value;
-    var num2Value = num2.value;
+//     var num1Value = num1.value;
+//     var num2Value = num2.value;
 
-    if (sign == '+') {
-        answer.innerHTML = parseInt(num1Value) + parseInt(num2Value);
-    }
+//     if (sign == '+') {
+//         answer.innerHTML = parseInt(num1Value) + parseInt(num2Value);
+//     }
 
-    if (sign == '-') {
-        answer.innerHTML = num1Value - num2Value;
-    }
+//     if (sign == '-') {
+//         answer.innerHTML = num1Value - num2Value;
+//     }
 
-    if (sign == '/') {
-        answer.innerHTML = num1Value / num2Value;
-    }
+//     if (sign == '/') {
+//         answer.innerHTML = num1Value / num2Value;
+//     }
 
-    if (sign == '*') {
-        answer.innerHTML = num1Value * num2Value;
-    }
+//     if (sign == '*') {
+//         answer.innerHTML = num1Value * num2Value;
+//     }
     // console.log(sign , num1Value , num2Value);
-}
+// }
 
 //SWITCH CASE
-var status = "pending";
+// var status = "pending";
 
-switch (status) {
+// switch (status) {
 
-    case 'active':
-        console.log("The status is active");
-        break;
+//     case 'active':
+//         console.log("The status is active");
+//         break;
 
-    case 'inactive':
-        console.log("The stus is inactive");
-        break;
+//     case 'inactive':
+//         console.log("The stus is inactive");
+//         break;
 
-    case 'pending':
-        console.log("The staus is pending");
-        break;
+//     case 'pending':
+//         console.log("The staus is pending");
+//         break;
 
-    default:
-        console.log("Your app is under review")
-}
+//     default:
+//         console.log("Your app is under review")
+// }
 
 //SORTING AN ARRAY(ALPHABETICALLY)
-arr = ['banana', 'grape', 'kiwi', 'apple', 'orange']
-arr.sort()
-console.log(arr);
+// arr = ['banana', 'grape', 'kiwi', 'apple', 'orange']
+// arr.sort()
+// console.log(arr);
 
 
 
 //SORTING AN ARRAY(NUMERICALLY)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-arr.sort((a, b) => a - b);
-console.log(arr);
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// arr.sort((a, b) => a - b);
+// console.log(arr);
 
 //ARRAY METHODS
 //PUSH (Add the last element of the array)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-arr.push(20);
-console.log(arr);
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// arr.push(20);
+// console.log(arr);
 
 //POP (Remove the last element of the array)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-arr.pop();
-console.log(arr);
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// arr.pop();
+// console.log(arr);
 
 //UNSHIFT (Add the first element of the array)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-arr.unshift(15);
-console.log(arr);
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// arr.unshift(15);
+// console.log(arr);
 
 //SHIFT (Remove the first element of the array)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-arr.shift();
-console.log(arr);
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// arr.shift();
+// console.log(arr);
 
 //FIND (Find tthe element in the array)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-console.log(arr.includes(9));
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// console.log(arr.includes(9));
 
 //INDEX OF (-1 will show if not found)
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-console.log(arr.indexOf(11));
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// console.log(arr.indexOf(11));
 
 
-arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-console.log(arr.join('|||'));
+// arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// console.log(arr.join('|||'));
 
 //SLICE (Remove the element from the original array)
-var arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
-var removeArr = arr.splice(1, 2);
-console.log(removeArr);
-console.log(arr);
+// var arr = [1, 2, 3, 4, 5, 44, 6, 7, 8, 9, 10];
+// var removeArr = arr.splice(1, 2);
+// console.log(removeArr);
+// console.log(arr);
 
 //04 - AUGUST 2025
 //ARRAY METHODS
@@ -401,50 +401,50 @@ console.log(arr);
 // })
 
 
+//GUESS GAME
+// let jsQuestions = [
+//   "What is the difference between var, let, and const?",
+//   "What is the type of a variable that stores both numbers and strings?",
+//   "What is the difference between == and === in JavaScript?",
+//   "What does the typeof operator do?",
+//   "How can you check if a value is an array?",
+//   "What is the use of the push method in arrays?",
+//   "What is the difference between slice and splice methods in arrays?",
+//   "How do you remove the last item from an array?",
+//   "What is a loop and why is it used in JavaScript?",
+//   "What is the use of the forEach method in arrays?",
+//   "What is an arrow function?",
+//   "What is the difference between function declaration and function expression?",
+//   "What is a callback function?",
+//   "What is the use of the return keyword in a function?",
+//   "What is an object in JavaScript?",
+//   "How do you access a property from an object?",
+//   "What does DOM stand for and why is it important in JavaScript?",
+//   "What is the use of getElementById method?",
+//   "What does the this keyword refer to in JavaScript?",
+//   "What is event handling in JavaScript?"
+// ];
 
-let jsQuestions = [
-  "What is the difference between var, let, and const?",
-  "What is the type of a variable that stores both numbers and strings?",
-  "What is the difference between == and === in JavaScript?",
-  "What does the typeof operator do?",
-  "How can you check if a value is an array?",
-  "What is the use of the push method in arrays?",
-  "What is the difference between slice and splice methods in arrays?",
-  "How do you remove the last item from an array?",
-  "What is a loop and why is it used in JavaScript?",
-  "What is the use of the forEach method in arrays?",
-  "What is an arrow function?",
-  "What is the difference between function declaration and function expression?",
-  "What is a callback function?",
-  "What is the use of the return keyword in a function?",
-  "What is an object in JavaScript?",
-  "How do you access a property from an object?",
-  "What does DOM stand for and why is it important in JavaScript?",
-  "What is the use of getElementById method?",
-  "What does the this keyword refer to in JavaScript?",
-  "What is event handling in JavaScript?"
-];
+// var allBoxes = document.getElementsByClassName("box");
 
-var allBoxes = document.getElementsByClassName("box");
+// for (var i = 0; i < allBoxes.length; i++) {
+//     allBoxes[i].addEventListener("click", function() {
+//      clearAll();
 
-for (var i = 0; i < allBoxes.length; i++) {
-    allBoxes[i].addEventListener("click", function() {
-     clearAll();
+//         this.style.backgroundColor = "#fff";
+//         this.style.color = "#000";
+//         this.style.fontSize = "20px";
+//         this.innerText = jsQuestions[Math.floor(Math.random() * 20)];
+//     });
+// }
 
-        this.style.backgroundColor = "#fff";
-        this.style.color = "#000";
-        this.style.fontSize = "20px";
-        this.innerText = jsQuestions[Math.floor(Math.random() * 20)];
-    });
-}
-
-function clearAll(){
-for (var i =0 ; i< allBoxes.length; i++) {
-        allBoxes[i].style.backgroundColor = "#000";
-        allBoxes[i].style.color = "#fff";
-         allBoxes[i].innerText = i + 1;
+// function clearAll(){
+// for (var i =0 ; i< allBoxes.length; i++) {
+//         allBoxes[i].style.backgroundColor = "#000";
+//         allBoxes[i].style.color = "#fff";
+//          allBoxes[i].innerText = i + 1;
     
-}}
+// }}
 
 
 // 05 - AUGUST 2025
@@ -453,3 +453,186 @@ for (var i =0 ; i< allBoxes.length; i++) {
 //EVENT LISTENER AND THIS KEYWORD
 //GUESS GAME 
 //*************************************************************************************** */
+
+
+
+//CONTRUCTOR FUNCTION (First word must be capitalized)
+// function Student(name , fatherName , classTaken , totalClass){
+//     this.name = name;
+//     this.fatherName = fatherName;
+//     this.classTaken = classTaken;
+//     this.totalClass = totalClass;
+//     this.getPercentage = function (){
+//     var attendance = (this.classTaken / this.totalClass) * 100;
+//     if(attendance >= 90){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// }
+
+// var student1 = new Student("Ali" , "Ahmed" , 55 , 60);
+// console.log(student1);
+
+// var student2 = new Student("Asher" , "Amir" , 50 , 60);
+// console.log(student2);
+
+// Student.prototype.section = "A"
+
+// console.log("student1==>" , student1.getPercentage())
+
+//OBJECT
+// var myInfo = {
+//     name : "Saad",
+//     age : 21,
+//     isMarried : false,
+// }
+
+// myInfo.phone = "3423424242"
+// myInfo.dob = new Date("9-28-2003");
+// myInfo.calculateAge = function(){
+//     console.log("this", this.dob)
+//     var now = new Date().getFullYear();
+//     var userDob = new Date(this.dob).getFullYear();
+//     var userAge = now - userDob;
+//     return userAge;
+// };
+
+// console.log("My Info Age",myInfo.calculateAge());
+
+//DELETE OBJECT PROPERTY
+// delete myInfo.isMarried;
+// console.log("My Info", myInfo);
+
+// document.getElementById("userName").innerText = myInfo.name;
+// document.getElementById("dob").innerText = new Date (myInfo.dob).toLocaleDateString();
+// document.getElementById("age").innerText = myInfo.calculateAge();
+
+//
+
+// function Student(message,name ,age){
+// this.message = message;
+// this.name = name;
+// this.age = age;
+// }
+
+
+// var student1 = new Student("Hello" , "Saad" , 21);
+// var student2 = new Student("Hi" , "Ali" , 25);
+// var student3 = new Student("Marhaba" , "Asher" , 24);
+
+
+
+//FOR EACH LOOP
+// var a =["Saad" , "Ali" , "Asher"];
+// a.forEach(function(value , index){
+//     console.log( index ,':', value)
+// })
+
+
+//MUTABLE AND IMMUTABLE
+
+// 01
+// (Mutable mai piche wali value connetion baqi rehta hai)
+// (Immutable mai piche wali value connection khatam ho jata hai)
+
+// 02
+// (Mutable can be updated)
+// (Immutable cannot be updated)
+
+// 03
+//(Mutable mai refernce check kerte hai )
+//(Immutable mai value check kerte hai )
+
+
+// var a ="Hello"
+// var b = a;
+
+// var a= "Hello World"
+
+// console.log("a=>", a);
+// console.log("b=>", b);
+
+
+// var c =100;
+// var d = c;
+
+// d = 200;
+
+// console.log("c=>", c);
+// console.log("d=>", d);
+
+//HOISTING (js ka default behaviour hai jo code execution hone se phele sare variable and function ko file ki top pe lejata hai)
+//var(Undefined , hoist hojata hai)
+//let(Refrencce Error , Hoist but cannot be used and declaration se above jitna bhi portion is call temporal red zone)
+//const(same as let)
+
+
+// console.log("x=>" , x);
+
+// var x = 10;
+// console.log("x=>" , x);
+
+// function sum(a,b){
+//     return a+b;
+// }
+
+
+// function varScope(){
+//     console.log("y==>" , y)
+
+//     var y =10;
+
+//     var x = 2;
+//     console.log("First=>" , x);
+
+//     if(true){
+//         var x =4;
+//         console.log("Second=>" ,x );
+//         if (true) { 
+//             var y = 10;
+//         }
+//     }
+//     console.log("Third=>" , x);
+// }
+
+var array = [1,2,3,4,5,6,7,8,9,12,23,434,45,56,67,78,98,232];
+
+var oddNum = array.filter((data , ind)=>data % 2 ==1 )
+console.log(oddNum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 06 - AUGUST 2025
+// FOR EACH LOOP
+//CONSTRUCTOR FUNCTION
+//OBJECTS
+//HOISTING
+//VAR , LET , CONST CONCEPT 
+//FILTER
+//*************************************************************************************** */
+// TYPES OF LOOPS WITH REALTIME EXAMPLE
+
+
+//for (jb hame pata ho kitni baar chalan hai loop ko)............table
+//while (Jb hame iteration nahi pata ho) ........................Internet Connection
+//do while (first time lazmi chalega) ........................... Asking mobile no 
+//for in (Give me index no) ......................................Object Properties
+//for of (Give me value)..........................................Array value
+//forEach (Give me value and index both)..........................Both (Value , Index)
+//Event Loop (Check kerta hai kiski bari agai hai)
