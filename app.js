@@ -159,7 +159,7 @@
 //     if (sign == '*') {
 //         answer.innerHTML = num1Value * num2Value;
 //     }
-    // console.log(sign , num1Value , num2Value);
+// console.log(sign , num1Value , num2Value);
 // }
 
 //SWITCH CASE
@@ -443,7 +443,7 @@
 //         allBoxes[i].style.backgroundColor = "#000";
 //         allBoxes[i].style.color = "#fff";
 //          allBoxes[i].innerText = i + 1;
-    
+
 // }}
 
 
@@ -598,24 +598,10 @@
 //     console.log("Third=>" , x);
 // }
 
-var array = [1,2,3,4,5,6,7,8,9,12,23,434,45,56,67,78,98,232];
+// var array = [1,2,3,4,5,6,7,8,9,12,23,434,45,56,67,78,98,232];
 
-var oddNum = array.filter((data , ind)=>data % 2 ==1 )
-console.log(oddNum)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var oddNum = array.filter((data , ind)=>data % 2 ==1 )
+// console.log(oddNum)
 
 
 // 06 - AUGUST 2025
@@ -636,3 +622,203 @@ console.log(oddNum)
 //for of (Give me value)..........................................Array value
 //forEach (Give me value and index both)..........................Both (Value , Index)
 //Event Loop (Check kerta hai kiski bari agai hai)
+
+
+
+
+//SETTIMEOUT
+// var a ="A";
+// var b ="B";
+
+// setTimeout(() => {
+//     console.log(a);
+// })
+
+// console.log(b);
+
+
+//CALLBACK
+// function login(callback){
+//     setTimeout( ()=>{
+//         console.log("User is logged In ");
+//         callback();
+
+//     } , 1000);
+// }
+
+// function getUserInfo(){
+//     const user = {
+//         name : "Saad",
+//     };
+//     setTimeout( ()=> {
+//         console.log("User Data is here" , user);
+//     } , 1000);
+
+
+// }
+
+// login(getUserInfo);
+
+
+// function login(isValid) {
+//     return new Promise((resolve, reject) => {
+//         if (isValid) {
+//             setTimeout( ()=>{
+//                 resolve("User is logged in")
+
+//             } , 300)
+//         }
+//         else {
+//             reject("User password is not valid")
+//         }
+//     });
+// }
+
+// function getUserInfo() {
+//     const user = {
+//         fullName: "Syed Muhammad Saad",
+//     };
+//     setTimeout(() => {
+//         console.log("Your data is here", user);
+//     }, 500)
+// }
+// login(true)
+//     .then(() => {
+//         console.log("User is logged in");
+//         getUserInfo();
+//     })
+//     .catch((err) => console.log("Catch=>", err))
+
+
+// | Concept        | Explanation                                         |
+// | -------------- | --------------------------------------------------- |
+// | `Promise`      | Asynchronous code ko handle karne ka tarika         |
+// | `resolve()`    | Jab kaam successful ho jaye                         |
+// | `reject()`     | Jab koi error ya issue ho jaye                      |
+// | `.then()`      | Jab promise successful ho jaye to ye chalta hai     |
+// | `.catch()`     | Jab promise fail ho jaye to ye chalta hai           |
+// | `setTimeout()` | Delay dene ke liye (simulation of server/API delay) |
+
+
+//FETCH API
+// var product = [];
+
+// fetch("https://fakestoreapi.com/products")
+//   .then((res) => res.json())
+//   .then((data) => displayProduct(data));
+
+// function displayProduct(products) {
+//   console.log("product =>", products);
+
+//   var list = document.getElementById("list");
+
+//   products.forEach((data, ind) => {
+//     let ele = `<li> ${data.title} </li>`;
+//     list.innerHTML += ele;
+//   });
+// }
+
+
+//TERNARY OPERATOR
+// let age = 22;
+// let gender = "male"
+
+// let isEligible = age >= 18 ? "Elder" : "younger"
+
+// console.log(isEligible)
+
+
+//DEFAULT PARAMETER
+// function sum(a = 10 , b = 30){
+//   return a + b ;    
+// }
+
+//  let sumValue = sum ();
+// console.log(sumValue)
+
+
+
+//REST OPERATOR
+// let car = {
+//     name : "BMW",
+//     model : 2022,
+//     isNew: false,
+//     color : "Black",
+//     isInShowRoom : false
+// };
+
+// let { name,model,isNew ,  ...rest} = car;
+// console.log(rest)
+
+
+
+//SPREAD OPERATOR
+// let car1 = {
+//     name : "BMW",
+//     model : 2022,
+//     isNew: false,
+//     color : "Black",
+//     isInShowRoom : false
+// };
+
+// let car2 = {...car1};
+// car2.model = 2015;
+
+// console.log(car1, "car1=>")
+// console.log(car2, "car2=>")
+
+
+//DESTRUCTING ON ARRAY
+// var arr = ["Saad" , "Musa" , "Ali" , "Salman"];
+
+// const [a , b , c ] = arr;
+
+// console.log("a=>" , a )
+// console.log("b=>" , b )
+// console.log("c=>" , c )
+
+//DESTRUCTING ON OBJECT
+//  let car = {
+//     name : "BMW",
+//     model : 2022,
+//     isNew: false,
+//     color : "Black",
+//     isInShowRoom : false
+// };
+
+// let car1 = {name , model , isNew, color , isInShowRoom} = car;
+// console.log(car1);
+
+// let originalObj = {
+//     name:"Saad",
+//     address: { city : "Gulshan"} 
+// }
+//  originalObj.address.city = "DHA";
+
+
+//  let shallowCopy = {...originalObj}
+// console.log(shallowCopy.address.city);
+
+
+
+
+
+let originalObj = {
+    name:"Saad",
+    address: { city : "Gulshan"} 
+}
+ originalObj.address.city = JSON.parse(JSON.stringify(originalObj));
+
+
+ let deepCopy = {...originalObj}
+console.log(deepCopy.address.city);
+
+
+// 07 - AUGUST 2025
+//SETTIMEOUT
+//ASYNCHRONUS AND SYNCHRONUS BEHAVIOR IN JS
+//CALLBACK
+//FETCH API
+//TERNARY OPERATOR
+//SPREAD OPERATOR
+//DESTRUCTING ON ARRAY
