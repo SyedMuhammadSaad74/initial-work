@@ -822,3 +822,12 @@ console.log(deepCopy.address.city);
 //TERNARY OPERATOR
 //SPREAD OPERATOR
 //DESTRUCTING ON ARRAY
+
+
+
+// DOM         (Normal page relod hone mai wo bhi reload hota hai)
+// VIRTUAL DOM (pura page reload nahi hota hai sirf wahi 
+//             component reload hota hai jisko reload kya hoga )
+//SHADOW DOM   (Create isolated DOM and CSS)
+
+//BOM          (Browser Object Model  to interact with the browser itself)
