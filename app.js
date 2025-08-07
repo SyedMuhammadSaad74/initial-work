@@ -831,3 +831,5 @@ console.log(deepCopy.address.city);
 //SHADOW DOM   (Create isolated DOM and CSS)
 
 //BOM          (Browser Object Model  to interact with the browser itself)
+//DOM
+//VIRTUAL DOM
